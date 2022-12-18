@@ -42,7 +42,6 @@ $(window).load(function(){
     $( window ).resize(function() {
         var currentPageNo = $(".cd-slider li.selected .js-tm-page-content").data("page-no");
         
-        // wait 3 seconds
         setTimeout(function() {
             adjustHeightOfPage( currentPageNo );
         }, 1000);
