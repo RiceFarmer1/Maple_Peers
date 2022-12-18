@@ -45,7 +45,7 @@ a:focus {
 
 .container-fluid { width: 100%; }
 
-.cd-hero-slider .cd-full-width { padding-top: 0; }
+.cd-slider .cd-full-width { padding-top: 0; }
 
 .cd-slider-nav {
 	position: absolute;
@@ -136,25 +136,25 @@ button:focus { outline: none;}
 	color: #5394D6;
 }
 
-.cd-hero-slider { height: 100vh; }
-.cd-hero-slider li { 
+.cd-slider { height: 100vh; }
+.cd-slider li { 
 	background-color: #2c343b;
 	list-style: none; 
 }
 
-.cd-hero-slider li:nth-of-type(1)
+.cd-slider li:nth-of-type(1)
 { background-image: url(../img/cn-tower.jpg); }
 
-.cd-hero-slider li:nth-of-type(2)
+.cd-slider li:nth-of-type(2)
 { background-image: url(../img/parliament.jpeg); }
 
-.cd-hero-slider li:nth-of-type(3)
+.cd-slider li:nth-of-type(3)
 { background-image: url(../img/blue-mountain.jpeg); }
 
-.cd-hero-slider li:nth-of-type(4)
+.cd-slider li:nth-of-type(4)
 { background-image: url(../img/toronto.jpeg); }
 
-.cd-hero-slider li:nth-of-type(5)
+.cd-slider li:nth-of-type(5)
 { background-image: url(../img/niagara.jpeg); }
 
 
@@ -165,12 +165,12 @@ button:focus { outline: none;}
 	width: 100%;
 }
 
-.cd-hero-slider h2, .cd-hero-slider p {
+.cd-slider h2, .cd-slider p {
 	max-width: none;
 	width: 100%;
 }
 
-.cd-hero-slider .tm-text { 
+.cd-slider .tm-text { 
 	font-size: 1em;
 	line-height: 1.8; 
 }
@@ -182,7 +182,7 @@ button:focus { outline: none;}
 	width: 100%;
 }
 
-.cd-hero-slider h2.tm-text-title {
+.cd-slider h2.tm-text-title {
 	color: #000002;
     font-size: 1.6em;
     font-weight: 400;
@@ -200,7 +200,7 @@ button:focus { outline: none;}
         justify-content: center;
 }
 
-.cd-hero-slider p:last-child { margin-bottom: 0; }
+.cd-slider p:last-child { margin-bottom: 0; }
 
 .tm-Registration-page {
 	margin: 0 auto;
@@ -242,7 +242,7 @@ textarea { height: 150px; }
 
 /* Slider */
 
-.cd-hero-slider.small-screen { height: 100%; }
+.cd-slider.small-screen { height: 100%; }
 
 .tm-navbar {
 	position: absolute;
@@ -255,7 +255,7 @@ textarea { height: 150px; }
 .cd-slider-nav a, 
 .navbar-nav .nav-link { height: 50px; }
 
-.cd-hero-slider .cd-full-width { text-align: left; }
+.cd-slider .cd-full-width { text-align: left; }
 .cd-full-width .container-fluid { margin-top: -80px; }
 
 .tm-2-col-textbox-2 {
@@ -301,7 +301,7 @@ textarea { height: 150px; }
   	margin: 0 auto;
 }
 
-.cd-hero-slider h2.tm-Registration-info {
+.cd-slider h2.tm-Registration-info {
 	color: black;
 	font-size: 1.4em;
 }
@@ -342,7 +342,7 @@ figure.effect-ruby {
     background-color: #17819c;
 }
 
-.cd-hero-slider .selected .cd-full-width figure.effect-ruby h2.tm-figure-title {
+.cd-slider .selected .cd-full-width figure.effect-ruby h2.tm-figure-title {
     margin-bottom: 0;
     -webkit-transition: -webkit-transform 0.35s;
     transition: transform 0.35s;
@@ -350,7 +350,7 @@ figure.effect-ruby {
     transform: translate3d(0,20px,0);
 }
 
-.cd-hero-slider .selected .cd-full-width figure.effect-ruby:hover h2.tm-figure-title {
+.cd-slider .selected .cd-full-width figure.effect-ruby:hover h2.tm-figure-title {
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
 }
@@ -387,7 +387,7 @@ figure.effect-ruby:hover img {
     opacity: 0.8;
 }
 
-.cd-hero-slider .selected .cd-full-width p.tm-figure-description {
+.cd-slider .selected .cd-full-width p.tm-figure-description {
     font-weight: 400;
     margin: 1em 0 0;
     padding: 2rem;
@@ -512,9 +512,9 @@ figure.effect-ruby:hover img {
 /* Media Queries */
 
 @media only screen and (min-width: 400px) {
-	.cd-hero-slider h2 { font-size: 2em; }
+	.cd-slider h2 { font-size: 2em; }
 
-	.cd-hero-slider .selected .cd-full-width figure.effect-ruby h2.tm-figure-title {
+	.cd-slider .selected .cd-full-width figure.effect-ruby h2.tm-figure-title {
 		margin-bottom: 14px;
 	}
 
@@ -523,7 +523,7 @@ figure.effect-ruby:hover img {
 
 @media only screen and (min-width: 480px) {
 	.cd-full-width .container-fluid { margin-top: -80px; }
-	.cd-hero-slider h2.tm-text-title { font-size: 1.8em; }
+	.cd-slider h2.tm-text-title { font-size: 1.8em; }
 	.tm-textbox-padding { padding: 30px 40px; }
 	.tm-textbox-padding-Registration { padding: 30px; }
 
@@ -536,7 +536,7 @@ figure.effect-ruby:hover img {
 	.cd-slider-nav .nav-link:focus {
 		background-color: rgba(255,255,255,0.7);
 	}
-	.cd-hero-slider .cd-full-width { padding-top: 0; }
+	.cd-slider .cd-full-width { padding-top: 0; }
 	.tm-3-col-textbox {
 		width: 50%;
 	}

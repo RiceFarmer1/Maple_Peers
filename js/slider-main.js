@@ -1,7 +1,7 @@
 jQuery(document).ready(function($){
-	var slidesWrapper = $('.cd-hero-slider');
+	var slidesWrapper = $('.cd-slider');
 
-	//check if a .cd-hero-slider exists in the DOM 
+	//check if a .cd-slider exists in the DOM 
 	if ( slidesWrapper.length > 0 ) {
 		var primaryNav = $('.cd-primary-nav'),
 			sliderNav = $('.cd-slider-nav'),
