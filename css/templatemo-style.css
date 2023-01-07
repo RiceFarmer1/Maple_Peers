@@ -341,7 +341,7 @@ textarea { height: 150px; }
 .-box-margin-b { margin-bottom: 20px; }
 
 
-/* About */
+/* Paddings */
 
 #information .tm-flex{
 	margin-left: 20%; 
@@ -350,8 +350,20 @@ textarea { height: 150px; }
 
 @media only screen and (max-width: 800px) {
 	#information .tm-flex{
-		margin-left: 5%; 
-		margin-right: 5%; 
+		margin-left: 2.5%; 
+		margin-right: 2.5%; 
+	}
+}
+
+#clubs .tm-flex{
+	margin-left: 10%; 
+	margin-right: 10%; 
+}
+
+@media only screen and (max-width: 800px) {
+	#clubs .tm-flex{
+		margin-left: 2.5%; 
+		margin-right: 2.5%; 
 	}
 }
 
